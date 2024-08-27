@@ -111,6 +111,7 @@ h2, h3 {
     #all-contents {
       height: 100ch;
       margin: none;
+     
     }
 
     a {
@@ -121,6 +122,7 @@ h2, h3 {
       margin-right: 0px;
       justify-content: center;
       align-items: center;
+      
     }
 
     .sidebar-img {
@@ -135,7 +137,7 @@ h2, h3 {
     .content {
       align-content: center;
       justify-content: center;
+      cursor: wait;
     }
 }
 
-style="cursor:not-allowed;"
