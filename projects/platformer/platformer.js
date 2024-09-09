@@ -45,13 +45,16 @@ $(function () {
     createPlatform(360, 400, 160, 20); //short but wide platform located 499 pixels from the left of the screen and 300 pixels from the top of the screen
     createPlatform(1200, 400, 160, 20); //short but wide platform located 1200 pixels from the left of the screen and 400 pixels from the top of the screen
 
-    createCollectable("database", 555, 250, 20,0.25); // creates a "database" collectible at the coordinates (555, 250), falling with a high gravity of 20, and bouncing with 25% bounce
-    createCollectable("database", 400, 250, 20,0.25); // creates a "database" collectible at the coordinates (555, 250), falling with a high gravity of 20, and bouncing with 25% bounce
-    createCollectable("database", 1250, 250, 20,0.25); // creates a "database" collectible at the coordinates (1250, 250), falling with a high gravity of 20, and bouncing with 25% bounce
+    createCollectable("database", 555, 250, 2); // creates a "database" collectible at the coordinates (555, 250), falling with a high gravity of 20, and bouncing with 25% bounce
+    createCollectable("database", 400, 250, 2); // creates a "database" collectible at the coordinates (555, 250), falling with a high gravity of 20, and bouncing with 25% bounce
+    createCollectable("database", 1250, 250,2); // creates a "database" collectible at the coordinates (1250, 250),falling with a high gravity of 2, and bouncing with 25% bounce
+    
 
-    createCannon("left", 600, 2000); // cannon on left wall, 600px down, shooting once per second
-    createCannon("right", 400,2000); // cannon on left wall, 600px down, shooting once per second
-    createCannon("top", 500, 1000); // cannon on left wall, 600px down, shooting once per second
+    createCannon("left", 600,4000); // cannon on left wall,600px down, shooting once per second
+    createCannon("right",400,2000); // cannon on right wall, 400px down, shooting once per second
+    createCannon("top", 500, 1000); // cannon on top wall, 5000px down,shooting once per second
+    createCannon("top", 500, 3000); // cannon on top wall, 5000px down,shooting once per second
+
 
     // TODO 2
     // Create collectables

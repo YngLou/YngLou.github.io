@@ -56,7 +56,7 @@ const animationTypes = {
 };
 let currentAnimationType = animationTypes.run;
 let frameIndex = 0;
-let jumpTimer = 0;
+let jumpTimer = 2;
 let duckTimer = 0;
 let DUCK_COUNTER_IDLE_VALUE = 14;
 let debugVar = false;
