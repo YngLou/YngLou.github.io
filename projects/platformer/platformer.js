@@ -50,11 +50,12 @@ $(function () {
     createCollectable("database", 1250, 250,2); // creates a "database" collectible at the coordinates (1250, 250),falling with a high gravity of 2, and bouncing with 25% bounce
     
 
-    createCannon("left", 600,4000); // cannon on left wall,600px down, shooting once per second
-    createCannon("right",400,2000); // cannon on right wall, 400px down, shooting once per second
-    createCannon("top", 500, 1000); // cannon on top wall, 5000px down,shooting once per second
-    createCannon("top", 500, 3000); // cannon on top wall, 5000px down,shooting once per second
+    createCannon("left", 600,3000); // cannon on left wall,600px down,shooting once per second
+    createCannon("right",400,2000); // cannon on right wall,400px down,shooting once per second
+    createCannon("top", 500, 2000); //  cannon on top wall, 500px down,shooting once per second
+    createCannon("top", 7000, 2000); //  cannon on top wall, 500px down,shooting once per second
 
+    
 
     // TODO 2
     // Create collectables
